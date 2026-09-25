@@ -167,7 +167,7 @@ const Navbar = () => {
               Log In
             </Button>
           </a>
-          <a href="https://wa.me/2349017758165" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus" target="_blank" rel="noopener noreferrer">
             <Button
               size="sm"
               className="gap-1.5 rounded-sm bg-primary px-5 text-white shadow-sm hover:opacity-90"
@@ -304,7 +304,7 @@ const Navbar = () => {
               </Button>
             </a>
             <a
-              href="https://wa.me/2349017758165"
+              href="https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus"
               target="_blank"
               rel="noopener noreferrer"
               onClick={close}

@@ -40,7 +40,7 @@ const Screenshot = ({
   </figure>
 );
 
-const WHATSAPP = "https://wa.me/2349017758165";
+const WHATSAPP = "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus";
 const EASE = [0.22, 1, 0.36, 1] as const;
 
 const reveal = {

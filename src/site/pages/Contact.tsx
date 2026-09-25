@@ -30,7 +30,7 @@ const Contact = () => {
         eyebrow="Contact us"
         title="Tell us what's slowing your clinic down."
         description="Want a demo, have questions, or need something specific? Our team is ready to help you get your time and money back."
-        primaryCta={{ label: "Chat on WhatsApp", href: "https://wa.me/2349017758165", external: true }}
+        primaryCta={{ label: "Chat on WhatsApp", href: "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus", external: true }}
         points={[
           { value: "24 hrs", label: "Response time on every message" },
           { value: "30 min", label: "Personalized walkthrough when you ask for a demo" },
@@ -84,7 +84,7 @@ const Contact = () => {
                 <div className="space-y-4">
                   {[
                     { icon: Mail, label: "support@clinexus.com.ng", href: "mailto:support@clinexus.com.ng" },
-                    { icon: Phone, label: "0901 7758 165", href: "https://wa.me/2349017758165" },
+                    { icon: Phone, label: "0901 7758 165", href: "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus" },
                     { icon: MapPin, label: "Ikeja, Lagos, Nigeria" },
                     { icon: Clock, label: "Mon, Fri, 8am, 6pm WAT" },
                   ].map((item) => (

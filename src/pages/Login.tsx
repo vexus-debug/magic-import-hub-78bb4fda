@@ -201,7 +201,7 @@ export default function Login() {
 
             <p className="mt-8 text-center text-sm text-muted-foreground lg:text-left">
               Don&apos;t have an account?{" "}
-              <a href="https://wa.me/2349017758165" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline-offset-4 hover:underline">
+              <a href="https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus" target="_blank" rel="noopener noreferrer" className="font-semibold text-primary underline-offset-4 hover:underline">
                 Create account
               </a>
             </p>

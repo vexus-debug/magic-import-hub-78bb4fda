@@ -23,7 +23,7 @@ import shotInventory from "@/assets/dental-sales/inventory.png";
 import shotDashboard from "@/assets/dental-sales/dashboard.png";
 import { LocalSeo } from "@/site/components/LocalSeo";
 
-const WHATSAPP = "https://wa.me/2349017758165";
+const WHATSAPP = "https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus";
 const EASE = [0.22, 1, 0.36, 1] as const;
 const viewport = { once: true, margin: "-70px" };
 const reveal = { hidden: { opacity: 0, y: 34 }, show: { opacity: 1, y: 0, transition: { duration: 0.7, ease: EASE } } };

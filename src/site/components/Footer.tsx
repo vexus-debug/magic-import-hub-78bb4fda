@@ -38,7 +38,7 @@ const Footer = () => {
             <div className="flex flex-col gap-2">
               <Link to="/about" className="text-sm text-foreground/70 transition-colors hover:text-foreground">About</Link>
               <Link to="/contact" className="text-sm text-foreground/70 transition-colors hover:text-foreground">Contact</Link>
-              <a href="https://wa.me/2349017758165" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 transition-colors hover:text-foreground">0901 7758 165</a>
+              <a href="https://wa.me/2349017758165?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus" target="_blank" rel="noopener noreferrer" className="text-sm text-foreground/70 transition-colors hover:text-foreground">0901 7758 165</a>
               <a href="mailto:support@clinexus.com.ng" className="text-sm text-foreground/70 transition-colors hover:text-foreground">support@clinexus.com.ng</a>
               <span className="text-sm text-foreground/70">Ikeja, Lagos, Nigeria</span>
             </div>

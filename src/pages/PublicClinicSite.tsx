@@ -305,7 +305,7 @@ export default function PublicClinicSite() {
     if (s.hero_cta_type === "whatsapp" && s.whatsapp_number) {
       return (
         <Button className={`${cls} bg-green-500 hover:bg-green-600`} style={{ borderRadius: 999 }} asChild>
-          <a href={`https://wa.me/${s.whatsapp_number}`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://wa.me/${s.whatsapp_number}?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus`} target="_blank" rel="noopener noreferrer">
             <MessageCircle className="mr-2 h-5 w-5" /> {s.hero_cta_label || "Chat on WhatsApp"}
           </a>
         </Button>
@@ -645,7 +645,7 @@ export default function PublicClinicSite() {
                     {booking ? <><Loader2 className="mr-2 h-4 w-4 animate-spin" /> Booking...</> : "Confirm booking"}
                   </Button>
                   {s.whatsapp_number && (
-                    <a href={`https://wa.me/${s.whatsapp_number}`} target="_blank" rel="noopener noreferrer" className="block text-center text-xs hover:underline" style={{ color: darkMuted }}>
+                    <a href={`https://wa.me/${s.whatsapp_number}?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus`} target="_blank" rel="noopener noreferrer" className="block text-center text-xs hover:underline" style={{ color: darkMuted }}>
                       Prefer WhatsApp? Message us instead
                     </a>
                   )}
@@ -849,7 +849,7 @@ export default function PublicClinicSite() {
                 )}
                 {s.whatsapp_number && (
                   <Button className="h-12 bg-green-500 hover:bg-green-600 text-white font-semibold" style={{ borderRadius: 999 }} asChild>
-                    <a href={`https://wa.me/${s.whatsapp_number}`} target="_blank" rel="noopener noreferrer"><MessageCircle className="mr-2 h-5 w-5" /> Chat on WhatsApp</a>
+                    <a href={`https://wa.me/${s.whatsapp_number}?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus`} target="_blank" rel="noopener noreferrer"><MessageCircle className="mr-2 h-5 w-5" /> Chat on WhatsApp</a>
                   </Button>
                 )}
                 {clinic?.phone && (
@@ -921,7 +921,7 @@ export default function PublicClinicSite() {
                   </a>
                 )}
                 {s.whatsapp_number && (
-                  <a href={`https://wa.me/${s.whatsapp_number}`} target="_blank" rel="noopener noreferrer" className="h-8 w-8 rounded-full flex items-center justify-center" style={{ backgroundColor: "rgba(255,255,255,0.08)" }}>
+                  <a href={`https://wa.me/${s.whatsapp_number}?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus`} target="_blank" rel="noopener noreferrer" className="h-8 w-8 rounded-full flex items-center justify-center" style={{ backgroundColor: "rgba(255,255,255,0.08)" }}>
                     <MessageCircle className="h-4 w-4" style={{ color: darkText }} />
                   </a>
                 )}
@@ -940,7 +940,7 @@ export default function PublicClinicSite() {
       {/* Floating WhatsApp */}
       {s.whatsapp_number && (
         <a
-          href={`https://wa.me/${s.whatsapp_number}`}
+          href={`https://wa.me/${s.whatsapp_number}?text=Hello%20I%20would%20like%20to%20know%20more%20about%20Clinexus`}
           target="_blank"
           rel="noopener noreferrer"
           className="fixed bottom-5 right-5 z-50 h-12 w-12 rounded-full bg-green-500 hover:bg-green-600 flex items-center justify-center shadow-lg"
