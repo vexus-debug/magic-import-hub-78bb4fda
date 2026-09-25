@@ -79,8 +79,8 @@ const EyeClinics = () => {
     <Layout>
       <PageHero
         eyebrow="Clinexus for eye clinics"
-        title="You fix eyes all day. The paperwork shouldn't be your hardest job."
-        description="Clinexus puts your exams, refractions, diagnostics, lens dispensing, surgeries and everyday admin in one simple place, so nothing slips through."
+        title="You fix eyes all day. The paperwork shouldn't be the thing wearing you down."
+        description="You chose this work because a patient's sight depends on you. So the exams, refractions, diagnostics, lens dispensing, surgeries and everyday admin shouldn't be the part that drains you. Clinexus holds it all in one simple place, so nothing slips past you."
         primaryCta={{ label: "Talk to us on WhatsApp", href: WHATSAPP, external: true }}
         secondaryCta={{ label: "See the full feature list", href: "/industries/eye-clinics/features" }}
         points={[
@@ -140,8 +140,8 @@ const EyeClinics = () => {
                   className="mt-5"
                 />
                 <p className="mb-4 font-medium text-primary">
-                  Stop rebuilding a patient's history from memory or a paper folder. It's all on one
-                  timeline, trending on its own.
+                  Stop rebuilding a patient's history from memory or a paper folder. You open their name,
+                  and their whole story is right there on one timeline, trending on its own.
                 </p>
                 <p className="max-w-2xl leading-relaxed text-muted-foreground">
                   Vision (aided, unaided, pinhole), eye pressure and how it was measured, pupils, front and
@@ -183,7 +183,8 @@ const EyeClinics = () => {
                 className="mt-5"
               />
               <p className="mb-4 font-medium opacity-80">
-                Spot slow changes, like early glaucoma, before a single visit makes them obvious.
+                Spot the slow change — that quiet drift of early glaucoma — before a single visit makes
+                it obvious to you.
               </p>
               <p className="text-sm leading-relaxed opacity-70">
                 Log OCT, visual fields, fundus photos, angiography, topography, pachymetry, biometry/IOL,
@@ -211,7 +212,7 @@ const EyeClinics = () => {
                 className="mt-5"
               />
               <p className="mb-2 font-medium text-primary">
-                Know where every fitting and order stands without scrolling a chat thread.
+                Know where every fitting and order stands, without scrolling a chat thread at 9pm.
               </p>
               <p className="text-sm leading-relaxed text-muted-foreground">
                 Contact lens fittings record brand, type, curve, diameter, powers and fit, with aftercare
