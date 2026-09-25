@@ -151,7 +151,7 @@ const DentalClinics = () => {
             The rest of the clinic, <span className="text-muted-foreground">already in there, not another product to buy</span>
           </motion.h2>
           <motion.p initial="hidden" whileInView="show" viewport={viewport} variants={reveal} className="mb-10 max-w-2xl text-muted-foreground">
-            Seeing patients is only half the job. The other half, including money, stock, staff and the patients you haven't seen in a year, lives in the same system using the same records.
+            Seeing patients is only half your job. You know the other half all too well: the money, the stock, the staff — and that patient who hasn't been back in a year, the one you keep meaning to call. It all lives in the same system, using the same records.
           </motion.p>
           <div className="mb-16 grid gap-4 md:grid-cols-2 lg:mb-24">
             {coreGroups.map((group, i) => (
