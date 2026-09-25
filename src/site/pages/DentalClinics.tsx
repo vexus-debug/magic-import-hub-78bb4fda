@@ -63,7 +63,7 @@ const coreGroups = [
   {
     icon: Users,
     title: "Patients & appointments",
-    benefit: "Fewer no-shows. Shorter waits. A calmer front desk.",
+    benefit: "Fewer no-shows. Shorter waits. A front desk that finally breathes.",
     points: [
 "Every patient's history, files and allergies in one profile",
 "Appointments, dentist schedules and a live waiting list",
@@ -74,7 +74,7 @@ const coreGroups = [
   {
     icon: Wallet,
     title: "Money & billing",
-    benefit: "Know what you earned, what it cost and who still owes you.",
+    benefit: "Know what you earned, what it cost you and who still owes you — without opening a notebook.",
     points: [
 "Invoices and estimates before the patient commits to treatment",
 "Payment plans for big work like implants and braces",
@@ -85,7 +85,7 @@ const coreGroups = [
   {
     icon: Boxes,
     title: "Stock & suppliers",
-    benefit: "Never cancel a procedure because something ran out.",
+    benefit: "Never have to cancel a procedure because something ran out on your watch.",
     points: [
 "Every material tracked with its real cost and value",
 "Treatments link straight to the materials they consume",
@@ -96,7 +96,7 @@ const coreGroups = [
   {
     icon: FileBarChart,
     title: "Reports & admin",
-    benefit: "Run your clinic on facts, not guesses.",
+    benefit: "Run your clinic on facts, not on the nagging feeling that something's slipping.",
     points: [
 "Clear reports on patients, money and daily activity",
 "Staff records, documents and clinic settings in one place",
