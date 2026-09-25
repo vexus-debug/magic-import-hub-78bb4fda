@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import CookieConsent from "./CookieConsent";
+import { FloatingWhatsAppButton } from "@/components/FloatingWhatsAppButton";
 
 const Layout = ({ children }: { children: ReactNode }) => {
   return (

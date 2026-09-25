@@ -24,6 +24,7 @@ import {
 import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
 import clinexusLogoWhite from "@/assets/site/clinexus-logo-white.png";
+import { FloatingWhatsAppButton } from "@/components/FloatingWhatsAppButton";
 
 const DEMO_CLINICS = [
   { label: "Dental Clinic Demo", icon: Stethoscope, slug: "demo", email: "demo@clinexus.com.ng", password: "Thepassword@48" },
@@ -208,6 +209,7 @@ export default function Login() {
           </div>
         </section>
       </div>
+      <FloatingWhatsAppButton />
     </main>
   );
 }
