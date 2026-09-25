@@ -18,7 +18,9 @@ export const getRouter = () => {
     // keeps the default history so SSR matches the real URL.
     history:
       typeof window !== "undefined"
-        ? createMemoryHistory({ initialEntries: ["/"] })
+        ? createMemoryHistory({
+            initialEntries: [window.location.pathname + window.location.search],
+          })
         : undefined,
   });
 
