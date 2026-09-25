@@ -129,7 +129,7 @@ const DentalClinics = () => {
               What you get, <span className="text-muted-foreground">in plain words</span>
             </motion.h2>
             <motion.p initial="hidden" whileInView="show" viewport={viewport} variants={reveal} className="mb-10 max-w-2xl text-muted-foreground">
-              One simple system for your patients, your appointments, your money and your stock instead of folders, notebooks and endless chats.
+              One simple place for your patients, your appointments, your money and your stock — instead of the folders, notebooks and endless chats that eat your evenings.
             </motion.p>
             <div className="mb-16 grid gap-6 md:grid-cols-2 lg:mb-24">
               {modules.map((item, i) => (
