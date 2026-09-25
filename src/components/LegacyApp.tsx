@@ -1,18 +1,27 @@
-import { lazy, Suspense, useEffect } from "react";
-import { ClientOnly } from "@tanstack/react-router";
+import { lazy, Suspense, useEffect, useState } from "react";
 import { PageSkeleton } from "@/components/PageSkeleton";
 
 const LegacyApp = lazy(() => import("@/App"));
 
 // Mounts the imported Clinexus app (react-router based) unchanged inside the
-// TanStack Start shell. ClientOnly keeps browser-only APIs out of SSR.
+// TanStack Start shell. The legacy app is only rendered after mount, in its
+// own commit: its BrowserRouter subscribes to the same window history as
+// TanStack Router, and rendering it during the Transitioner's render pass
+// triggers "cannot update a component while rendering a different component".
 export function LegacyAppHost() {
-  useEffect(() => { console.log("MOUNT LegacyAppHost", performance.now()); return () => console.log("UNMOUNT LegacyAppHost", performance.now()); }, []);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) {
+    return <PageSkeleton />;
+  }
+
   return (
-    <ClientOnly fallback={<PageSkeleton />}>
-      <Suspense fallback={<PageSkeleton />}>
-        <LegacyApp />
-      </Suspense>
-    </ClientOnly>
+    <Suspense fallback={<PageSkeleton />}>
+      <LegacyApp />
+    </Suspense>
   );
 }
